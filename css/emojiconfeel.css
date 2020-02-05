@@ -1,14 +1,16 @@
 body{
-    background: #4DA0B0;  /* fallback for old browsers */
-background: -webkit-linear-gradient(to right, #D39D38, #4DA0B0);  /* Chrome 10-25, Safari 5.1-6 */
-background: linear-gradient(to right, #D39D38, #4DA0B0); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background: #FEAC5E;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #4BC0C8, #C779D0, #FEAC5E);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #4BC0C8, #C779D0, #FEAC5E); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 
 }
-h4{
-    letter-spacing: 8px;
-    margin-top: 80px;
+h2{
+    /* letter-spacing: 1px; */
+    margin-top: 10px;
     color: #fbfeff;
 }
+
+/* emotoin excellent */
 .round1{
     height: 150px;
     width: 150px;
@@ -41,7 +43,7 @@ h4{
     border-radius: 50px;
     background: #5c3a13;
 }
-
+/* very good */
 .round2{
     height: 150px;
     width: 150px;
@@ -60,7 +62,7 @@ h4{
     background: #5c3a13;
 }
 .eye21{
-     height: 20px;
+    height: 20px;
     width: 20px;
     border-radius: 20px;
     background: #5c3a13;
@@ -68,13 +70,24 @@ h4{
     margin-right: -45px;
 }
 .mouth2{
-    height: 10px;
+    height: 40px;
     width: 70px;
-    margin-top:30px;
-    border-radius: 50px;
+    margin-top:20px;
+    border-bottom-left-radius: 80px;
+    border-bottom-right-radius: 80px;
     background: #5c3a13;
 }
+.teeth2{
+    background: #fff;
+    height: 10px;
+    width: 60px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    padding-top: 2px;
+    transform: translateY(4px);
+}
 
+/* emotion good */
 .round3{
     height: 150px;
     width: 150px;
@@ -93,7 +106,7 @@ h4{
     background: #5c3a13;
 }
 .eye31{
-    height: 20px;
+     height: 20px;
     width: 20px;
     border-radius: 20px;
     background: #5c3a13;
@@ -101,29 +114,21 @@ h4{
     margin-right: -45px;
 }
 .mouth3{
-    height: 40px;
+    height: 10px;
     width: 70px;
-    margin-top:20px;
-    border-bottom-left-radius: 80px;
-    border-bottom-right-radius: 80px;
+    margin-top:30px;
+    border-radius: 50px;
     background: #5c3a13;
 }
-.teeth3{
-    background: #fff;
-    height: 10px;
-    width: 60px;
-    border-bottom-left-radius: 20px;
-    border-bottom-right-radius: 20px;
-    padding-top: 2px;
-    transform: translateY(4px);
-}
+/* emotion poor */
 .round4{
     height: 150px;
     width: 150px;
     margin-top: 150px;
     border-radius: 150px;
     background: #FFC107;
-    border: 1px solid #FFC107;
+    /* background: rgb(255, 103, 43); */
+    border: 1px solid #ffc507;
     box-shadow: 0 5px 5px rgba(31, 28, 28, 0.73);
 }
 .eye4{
@@ -134,48 +139,31 @@ h4{
     margin-left: -55px;
     background: #5c3a13;
 }
-.eye42{
-    height: 20px;
-    width: 20px;
-    border-radius: 20px;
-    margin-top: -75px;
-    margin-left: -55px;
-    background: #FFC107;
-}
 .eye41{
-    height: 20px;
+     height: 20px;
     width: 20px;
     border-radius: 20px;
     background: #5c3a13;
     margin-top: -19px;
     margin-right: -45px;
-}
-.eye421{
-    height: 20px;
-    width: 20px;
-    border-radius: 20px;
-    margin-top: -19px;
-    margin-right: -45px;
-    background: #FFC107;
 }
 .mouth4{
     height: 40px;
-    width: 70px;
+    width: 40px;
     margin-top:20px;
-    border-bottom-left-radius: 80px;
-    border-bottom-right-radius: 80px;
+    border-radius: 50px;
     background: #5c3a13;
 }
-.teeth4{
-    background: #fff;
-    height: 10px;
-    width: 60px;
-    border-bottom-left-radius: 20px;
-    border-bottom-right-radius: 20px;
-    padding-top: 2px;
-    transform: translateY(4px);
+.mouth41{
+    height: 40px;
+    width: 45px;
+    margin-top: -30px;
+    border-radius: 30px;
+    background: #FFC107;
 }
 
+
+/* emotion very poor */
 .round5{
     height: 150px;
     width: 150px;
@@ -211,8 +199,8 @@ h4{
 }
 .mouth51{
     height: 40px;
-    width: 50px;
+    width: 45px;
     margin-top: -30px;
-    border-radius: 20px;
+    border-radius: 30px;
     background: #ff672b;
 }
